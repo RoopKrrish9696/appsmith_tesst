@@ -1,0 +1,12 @@
+{
+  "configType": "ROOT",
+  "metadata": {
+    "cliVersion": "1.4.2"
+  },
+  "resources": {
+    "2e9c88df-61da-43c7-bab0-26c6b9bbd345": {
+      "location": "apps/appsmith_tesst",
+      "resourceType": "APPLICATION"
+    }
+  }
+}

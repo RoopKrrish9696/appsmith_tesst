@@ -6,21 +6,52 @@ layouts:
       apis:
         apiMap: {}
       backgroundColor: none
+      cachedData:
+        pageLoadActions:
+          apiDeps: {}
+          apiNames: []
       canExtend: true
       children:
         - canExtend: true
           children:
             - backgroundColor: none
               canExtend: true
-              children: []
+              children:
+                - animateLoading: true
+                  collapseWhenHidden: false
+                  gridColumns: 24
+                  height:
+                    mode: gridUnit
+                    value: 3
+                  isLoading: false
+                  isVisible: true
+                  left:
+                    mode: gridUnit
+                    value: 30
+                  parentId: dwpvpsnarl
+                  text: Label
+                  textAlign: LEFT
+                  textStyle: LABEL
+                  textType: text
+                  top:
+                    mode: gridUnit
+                    value: 20
+                  type: TEXT_WIDGET
+                  verticalAlign: AUTO
+                  widgetId: 8k24bl0zvv
+                  widgetName: Text1
+                  width:
+                    mode: gridUnit
+                    value: 24
               containerStyle: none
               detachFromLayout: true
               dragDisabled: true
               dynamicBindingPathList: []
+              dynamicTriggerPathList: []
               gridColumns: 96
               height:
-                mode: gridUnit
-                value: 99
+                mode: fitContent
+                value: 106
               isLoading: false
               isVisible: true
               layout: FIXED_GRID

@@ -35,11 +35,37 @@ layouts:
                   textType: text
                   top:
                     mode: gridUnit
-                    value: 20
+                    value: 22
                   type: TEXT_WIDGET
                   verticalAlign: AUTO
                   widgetId: 8k24bl0zvv
                   widgetName: Text1
+                  width:
+                    mode: gridUnit
+                    value: 24
+                - animateLoading: true
+                  collapseWhenHidden: false
+                  gridColumns: 24
+                  height:
+                    mode: gridUnit
+                    value: 3
+                  isLoading: false
+                  isVisible: true
+                  left:
+                    mode: gridUnit
+                    value: 39
+                  parentId: dwpvpsnarl
+                  text: Label
+                  textAlign: LEFT
+                  textStyle: LABEL
+                  textType: text
+                  top:
+                    mode: gridUnit
+                    value: 11
+                  type: TEXT_WIDGET
+                  verticalAlign: AUTO
+                  widgetId: p66me181jo
+                  widgetName: Text2
                   width:
                     mode: gridUnit
                     value: 24
